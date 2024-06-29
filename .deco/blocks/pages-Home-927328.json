@@ -1,1 +1,42 @@
-{"name":"Home","path":"/","sections":[{"__resolveType":"Header"},{"__resolveType":"site/sections/Social.tsx"},{"__resolveType":"site/sections/Links.tsx"},{"__resolveType":"site/sections/Image.tsx"},{"__resolveType":"site/sections/Links.tsx"},{"__resolveType":"Footer"}],"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/Social.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Links.tsx",
+      "links": [
+        {
+          "icon": "ArrowLeft",
+          "label": "My home",
+          "href": "https://github.com/Megas-MDN"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Image.tsx",
+      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10996/ccb993f3-2673-48f2-91f9-3baa52932206",
+      "alt": "Go out",
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10996/142b4800-d1c1-41d3-a501-f95e2201eff5"
+    },
+    {
+      "__resolveType": "site/sections/Links.tsx",
+      "links": [
+        {
+          "icon": "ArrowLeft",
+          "label": "MEgas",
+          "href": "https://github.com/Megas-MDN"
+        }
+      ]
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}
